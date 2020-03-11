@@ -1,0 +1,12 @@
+/*
+Insert the missing parts in the JOIN clause to join the 
+two tables Enrolments and Students, using the StudentID 
+field in both tables as the relationship between the two tables.
+*/
+
+-- (Add your query to the file exercise1.sql)
+
+SELECT *
+FROM Enrolments
+LEFT JOIN Students
+ON Enrolments.StudentID = Students.StudentID;
